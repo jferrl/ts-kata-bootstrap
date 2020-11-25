@@ -1,4 +1,4 @@
-# Mars Robot Simulator
+# TS Kata Bootstrap
 
 The main purpose of this repository is to have a TypeScript kata bootstrap with a basic end-to-end project setup and workflow for writing Node code with TypeScript.
 Proyect structure based on [microsoft/TypeScript-Node-Starter](https://github.com/microsoft/TypeScript-Node-Starter)
