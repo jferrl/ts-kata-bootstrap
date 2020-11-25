@@ -1,0 +1,38 @@
+{
+    "name": "ts-kata-bootstrap",
+    "version": "0.0.1",
+    "description": "kata boostrap project in TS",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run build && node dist/index.js",
+        "build": "npm run build-ts",
+        "build-ts": "tsc",
+        "test": "jest --forceExit --verbose --detectOpenHandles",
+        "watch-test": "npm run test -- --watchAll"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jferrl/ts-kata-bootstrap.git"
+    },
+    "keywords": [
+        "ts",
+        "nodejs",
+        "coding-dojos"
+    ],
+    "author": "jferrl",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jferrl/ts-kata-bootstrap/issues"
+    },
+    "homepage": "https://github.com/jferrl/ts-kata-bootstrap#readme",
+    "devDependencies": {
+        "@types/jest": "^25.2.1",
+        "@types/node": "^13.13.5",
+        "jest": "^26.0.1",
+        "jest-each": "^26.0.1",
+        "ts-jest": "^25.5.0",
+        "tslint": "^6.1.2",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.8.3"
+    }
+}
